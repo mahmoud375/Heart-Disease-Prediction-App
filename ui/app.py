@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 
 # --- 1. Load Model and Define Columns ---
 try:
-    pipeline = joblib.load('../models/final_model.pkl')
+    pipeline = joblib.load('models/final_model.pkl')
 except FileNotFoundError:
     st.error("Model file not found. Make sure 'final_model.pkl' is in the 'models' directory.")
     st.stop()
