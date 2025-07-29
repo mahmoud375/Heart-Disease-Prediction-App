@@ -7,7 +7,7 @@ This file contains instructions for deploying the Streamlit application.
 This is the primary method for a permanent, public, and free deployment.
 
 **Final Application URL:**
-**[https://heart-disease-app-example.streamlit.app](https://heart-disease-app-example.streamlit.app)** 
+**[https://heart-disease-app-example.streamlit.app](https://heart-disease-prediction-app-1.streamlit.app/)** 
 
 **Deployment Steps:**
 1. Ensure all final code changes are pushed to the `main` branch of the GitHub repository.

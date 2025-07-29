@@ -2,7 +2,7 @@
 
 [![Project Status: Completed](https://img.shields.io/badge/status-completed-brightgreen.svg)](https://shields.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://heart-disease-prediction-app-1.streamlit.app/)
 
 A comprehensive machine learning project that predicts the likelihood of heart disease based on the UCI Heart Disease dataset. This project covers the entire ML lifecycle, from data preprocessing and exploratory data analysis to model training, evaluation, and deployment as an interactive web application.
 
@@ -12,7 +12,7 @@ A comprehensive machine learning project that predicts the likelihood of heart d
 
 You can access the live interactive application here:
 
-**[➡️ View Live Streamlit App](https://your-app-name.streamlit.app)** *(<-- Replace this with your actual app URL)*
+**[➡️ View Live Streamlit App](https://heart-disease-prediction-app-1.streamlit.app/)**
 
 ---
 
@@ -61,12 +61,12 @@ To run this project locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+    git clone https://github.com/mahmoud375/Heart-Disease-Prediction-App.git
     ```
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd YOUR_REPOSITORY_NAME
+    cd Heart-Disease-Prediction-App
     ```
 
 3.  **Install the required dependencies:**
@@ -121,9 +121,9 @@ Heart_Disease_Project/
 
 ## 📬 Contact
 
-Created by **[Your Name]**
+Created by **Mahmoud Elgendy**
 
-* GitHub: [@your-username](https://github.com/your-username)
-* LinkedIn: [Your Name](https://linkedin.com/in/your-profile)
+* **Portfolio:** [Mahmoud Elgendy](https://my-portfolio-virid-mu.vercel.app/)
+* **LinkedIn:** [Mahmoud Elgendy](https://www.linkedin.com/in/mahmoud-elgendy2003/)
 
 Feel free to reach out with any questions or feedback!
