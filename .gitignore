@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+# If your data is large, you might want to ignore it
+# data/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Ngrok
+ngrok
+ngrok.exe
