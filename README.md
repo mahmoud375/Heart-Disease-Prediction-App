@@ -16,28 +16,54 @@ You can access the live interactive application here:
 
 ---
 
-## 📋 Project Workflow
+# 📋 Project Workflow
 
-This project follows a structured machine learning pipeline:
+This project follows a structured machine learning pipeline, divided into the following key phases:
 
-1.  **Data Preprocessing & Cleaning:** Loaded the dataset, handled missing values with imputation, performed one-hot encoding for categorical features, and standardized numerical features using `StandardScaler`.
-2.  **Exploratory Data Analysis (EDA):** Generated visualizations like correlation heatmaps, histograms, and boxplots to understand data distributions and relationships.
-3.  **Feature Selection & Dimensionality Reduction:**
-    * Applied **Principal Component Analysis (PCA)** to explore dimensionality reduction.
-    * Utilized **Random Forest Feature Importance** and **Recursive Feature Elimination (RFE)** to select the most impactful features for modeling.
-4.  **Model Training & Evaluation:**
-    * Trained and evaluated multiple classification models:
+### Phase 1: Data Preparation & Analysis
+
+1.  **Data Preprocessing & Cleaning**
+    * Load the initial dataset.
+    * Handle missing values using imputation techniques.
+    * Transform categorical features using **One-Hot Encoding**.
+    * Standardize numerical features using `StandardScaler`.
+
+2.  **Exploratory Data Analysis (EDA)**
+    * Create visualizations to understand data distributions and relationships, such as:
+        * Correlation Heatmaps.
+        * Histograms.
+        * Boxplots.
+
+### Phase 2: Feature Selection & Model Building
+
+3.  **Feature Selection & Dimensionality Reduction**
+    * Use **Principal Component Analysis (PCA)** to explore dimensionality reduction.
+    * Identify the most impactful features using **Random Forest Feature Importance** and **Recursive Feature Elimination (RFE)**.
+
+4.  **Model Training & Evaluation**
+    * Train and evaluate several classification models:
         * Logistic Regression
         * Decision Tree
         * Random Forest
         * Support Vector Machine (SVM)
-    * Evaluated models based on Accuracy, Precision, Recall, F1-Score, and AUC-ROC curves.
-5.  **Unsupervised Learning:** Applied **K-Means Clustering** and **Hierarchical Clustering** to discover underlying patterns in the data.
-6.  **Hyperparameter Tuning:** Optimized the best-performing model (Random Forest) using `GridSearchCV` to enhance its predictive power.
-7.  **Deployment:**
-    * Saved the final, optimized model pipeline using `joblib`.
-    * Developed an interactive web user interface using **Streamlit**.
-    * Deployed the application on **Streamlit Community Cloud** for public access.
+    * Evaluate model performance based on Accuracy, Precision, Recall, F1-Score, and AUC-ROC curves.
+
+### Phase 3: Unsupervised Learning & Optimization
+
+5.  **Unsupervised Learning**
+    * Apply clustering algorithms to discover underlying patterns in the data:
+        * **K-Means Clustering**.
+        * **Hierarchical Clustering**.
+
+6.  **Hyperparameter Tuning**
+    * Optimize the best-performing model (Random Forest) using `GridSearchCV` to enhance its predictive power.
+
+### Phase 4: Deployment & Application
+
+7.  **Model Deployment**
+    * Save the final, optimized model using `joblib`.
+    * Develop an interactive web user interface using **Streamlit**.
+    * Deploy the application on **Streamlit Community Cloud** for public access.
 
 ---
 
